@@ -148,9 +148,11 @@ export default function HomePage() {
                           <p className="text-3xl font-bold text-[oklch(0.45_0.18_260)]">
                             ${vehicle.price.toLocaleString()}
                           </p>
-                          <p className="text-base text-muted-foreground">
-                            {vehicle.mileage > 0 ? `${vehicle.mileage.toLocaleString()} mi` : "Mileage N/A"}
-                          </p>
+                          {vehicle.mileage > 0 && (
+                            <p className="text-base text-muted-foreground">
+                              {vehicle.mileage.toLocaleString()} mi
+                            </p>
+                          )}
                         </div>
                       </div>
                     </Card>
