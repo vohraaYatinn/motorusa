@@ -100,6 +100,8 @@ export default function InventoryPage() {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="all">All Makes</SelectItem>
+                      <SelectItem value="Audi">Audi</SelectItem>
+                      <SelectItem value="Dodge">Dodge</SelectItem>
                       <SelectItem value="Honda">Honda</SelectItem>
                       <SelectItem value="Kia">Kia</SelectItem>
                     </SelectContent>
