@@ -30,8 +30,8 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-foreground">Contact</h4>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-              <li>3716 Ocee St</li>
-              <li>Houston, TX 77063</li>
+              <li>10021 Long Point Rd</li>
+              <li>Houston, TX 77055</li>
               <li className="mt-4">+1 (832) 390-6465</li>
               <li>info@motorworldusa.com</li>
             </ul>

@@ -99,9 +99,9 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-card-foreground">Location</h3>
                     <p className="mt-1 text-sm text-muted-foreground">Visit our showroom</p>
                     <p className="mt-2 text-sm font-medium text-card-foreground">
-                      3716 Ocee St
+                      10021 Long Point Rd
                       <br />
-                      Houston, TX 77063
+                      Houston, TX 77055
                     </p>
                   </div>
                 </div>
